@@ -5,6 +5,17 @@ body, ul, li {
     list-style: none;
 }
 
+h1 {
+    text-align: center; /* Center-align the text */
+    background-color: black; /* Background color for the title */
+    color: #fff; /* Text color for the title */
+    padding: 5px 0; /* Add padding to the title for spacing */
+}
+
+b {
+    color: saddlebrown;
+}
+
 /* Style the navbar */
 .navbar {
     display: flex;
@@ -119,7 +130,57 @@ img {
 
 /* Styles for the card images */
 .card img {
-    width: 100%;
+    width: 450px;
     height: 100%;
     object-fit: cover; /* Crop and center the image within the card */
+}
+
+
+/* Styles for the card titles */
+.card-title {
+    font-size: large;
+    text-align: center; /* Center-align the text */
+    background-color: #333; /* Background color for the title */
+    color: #fff; /* Text color for the title */
+    padding: 5px 0; /* Add padding to the title for spacing */
+}
+
+
+
+
+
+
+
+
+
+/* Styles for the footer */
+.footer {
+    background-color: rgb(16, 16, 16); /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    text-align: center; /* Center-align the content */
+    padding: 10px 0; /* Add padding for spacing */
+}
+
+/* Styles for the contact info */
+.contact-info {
+    font-size: 14px; /* Adjust font size as needed */
+    margin: 5px 0; /* Add spacing between phone and email */
+}
+
+/* Styles for the phone number */
+.phone {
+    font-weight: bold; /* Make the phone number text bold */
+}
+
+/* Styles for the email address */
+.email {
+    text-decoration: none; /* Remove underline for email address */
+    color: #fff; /* Text color for the email address */
+}
+
+
+
+/* Add margin to create space between the card-container and footer */
+.card-container + footer {
+    margin-top: 20px; /* Adjust the value to add the desired spacing */
 }
