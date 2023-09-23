@@ -1,0 +1,128 @@
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+/* Style the logo */
+.logo img {
+    max-height: 40px;
+}
+
+.menu {
+    display: flex;
+}
+
+/* Style the menu items */
+.menu li {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the search icon */
+.search-icon img {
+    max-height: 24px;
+}
+
+/* Style the hover effect on menu items */
+.menu a:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+/* This code is for the slideshow */
+
+/* Styles for the slideshow container */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-height: 100vh; /* Make the slideshow full-height */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+/* Styles for the slideshow images */
+.mySlides {
+    display: none; /* Hide all slides by default */
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain; /* Crop and center the image */
+}
+
+
+
+
+
+
+
+
+
+
+/* Styles for the card links */
+.card-link {
+    text-decoration: none; /* Remove default link underline */
+    color: inherit; /* Inherit text color from parent */
+    max-width: max-content;
+}
+
+/* Styles for the card container */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px; /* Adds spacing around the cards */
+}
+
+/* Styles for each card */
+.card {
+    flex: 1;
+    max-width: calc(33.33% - 20px); /* Three cards with about 10px spacing between them */
+    padding: 10px; /* Adds spacing within the cards */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    background-color: #f0f0f0; /* Card background color (adjust as needed) */
+    text-decoration: none; /* Remove the default link underline */
+    color: inherit; /* Inherit the text color */
+    display: flex; /* Make the card a flex container */
+    flex-direction: column; /* Stack image and content vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+/* Styles for the card images */
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crop and center the image within the card */
+}
