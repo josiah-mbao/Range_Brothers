@@ -113,11 +113,8 @@ img {
     padding: 10px; /* Adds spacing within the cards */
     box-sizing: border-box; /* Include padding in the width calculation */
     background-color: #f0f0f0; /* Card background color (adjust as needed) */
-    text-decoration: none; /* Remove the default link underline */
-    color: inherit; /* Inherit the text color */
-    display: flex; /* Make the card a flex container */
-    flex-direction: column; /* Stack image and content vertically */
-    align-items: center; /* Center items horizontally */
+    height: 100vh;
+    width: 100%;
 }
 
 /* Styles for the card images */
