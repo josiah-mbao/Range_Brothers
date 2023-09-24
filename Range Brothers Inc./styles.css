@@ -147,6 +147,15 @@ img {
 
 
 
+.card-link {
+    transition: transform 0.4s; /* Add a smooth transition effect */
+}
+
+.card-link:hover {
+    transform: scale(1.05);
+}
+
+
 
 
 
