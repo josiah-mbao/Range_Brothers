@@ -11,3 +11,10 @@ it looks but for sure, there's always room for improvement. Now, I am
 setting up Django and making models for the website. I have elected to
 use Django's in-built User model. First 2 days and I am happy with the
 progress made so far:)
+
+
+** Day 3 **
+So today I read up a bit on making models in Django but realised that I
+need to properly plan my database structure before I start making the models.
+So i will do this on paper and with other tools like lucid chart, before
+getting to that part of the project.
